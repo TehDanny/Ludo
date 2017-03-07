@@ -10,6 +10,7 @@ public class ProbablyDumbLUDOPlayer implements LUDOPlayer
 {
 	LUDOBoard board;
 	Random random;
+	int depth = 4; // time constraint to avoid infinite loops
 	
 	public ProbablyDumbLUDOPlayer(LUDOBoard board)
 	{
@@ -44,8 +45,18 @@ public class ProbablyDumbLUDOPlayer implements LUDOPlayer
 		return 0;
 	}
 
-	public void miniMaxHeuristic()
+	public void miniMax(LUDOBoard boardstate)
 	{
 	
+	}
+	
+	public void min()
+	{
+		
+	}
+	
+	public void max()
+	{
+		
 	}
 }
