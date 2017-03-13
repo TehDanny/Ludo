@@ -307,7 +307,7 @@ public class LUDOBoard extends Canvas
 			repaint();
 		}
 		else {
-			print("You must move a brick before you rool the dice");
+			print("You must move a brick before you roll the dice");
 		}
 		return dice;
 	}
