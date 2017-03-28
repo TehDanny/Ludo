@@ -6,13 +6,13 @@ import java.util.Random;
  * 
  */
 
-public class ProbablyDumbLUDOPlayer implements LUDOPlayer
+public class MiniMaxLUDOPlayer implements LUDOPlayer
 {
 	LUDOBoard board;
 	Random random;
 	int depth = 4; // time constraint to avoid infinite loops
 	
-	public ProbablyDumbLUDOPlayer(LUDOBoard board)
+	public MiniMaxLUDOPlayer(LUDOBoard board)
 	{
 		this.board = board;
 		random = new Random();
